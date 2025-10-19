@@ -1,6 +1,6 @@
 # StudyBuddy – AI Tutoring Chatbot
 
-StudyBuddy is your AI-powered learning partner 🤖.
+StudyBuddy is your AI-powered learning partner.
 It reads your lecture PDFs, understands the content, and answers your questions — in any language, about any topic from your slides.
 
 ---
