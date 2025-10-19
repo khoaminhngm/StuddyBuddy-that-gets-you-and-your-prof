@@ -22,8 +22,8 @@ project-root/
 │   ├── llm.py              # Gemini-based LLM handler
 │   ├── rag.py              # Retrieval-Augmented Generation logic
 │   ├── .env                # API keys (ignored by Git) -- ADD YOUR OWN HERE
-│   └── requirements.txt    # Python dependencies
 │
+|── requirements.txt    # Python dependencies
 └── README.md               # Project guide
 ```
 
