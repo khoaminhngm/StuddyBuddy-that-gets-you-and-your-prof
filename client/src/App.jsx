@@ -60,8 +60,9 @@ export default function App() {
         <header className="chat-header">
           <h2>StudyBuddy</h2>
           <p className="subtitle">
-            A Vietnamese-friendly RAG-based teaching assistant 🤖
+            A Vietnamese-friendly RAG-based teaching assistant, who's trying its best..
           </p>
+          <p className="subtitle">uhhh i need a while to think tho hehe</p>
           <p className="subtitle">💡 Tip: Ask me to explain, summarize, or calculate!</p>
         </header>
 
