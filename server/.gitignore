@@ -1,0 +1,42 @@
+# --- Environment & Config ---
+.env
+*.env
+
+# --- Python cache & compiled files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+env/
+.venv/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Build & temporary files ---
+*.egg-info/
+build/
+dist/
+*.spec
+*.bak
+*.tmp
+
+# --- Jupyter & notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- IDE specific ---
+.vscode/
+.idea/
+
+# --- Data files ---
+chunks.json
+*.db
+*.sqlite

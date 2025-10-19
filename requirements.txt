@@ -1,0 +1,12 @@
+PyPDF2
+langchain
+uuid
+pinecone
+langchain-pinecone
+langchain-core
+langchain-google-genai
+fastapi
+pydantic
+uvicorn
+python-dotenv
+dotenv

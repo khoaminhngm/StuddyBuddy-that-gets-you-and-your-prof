@@ -1,0 +1,71 @@
+# --- GLOBAL SETTINGS ---
+
+# Environment files
+.env
+*.env
+
+# --- PYTHON / SERVER ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+*.bak
+*.tmp
+
+# Data & cache
+*.db
+*.sqlite
+*.json
+*.csv
+*.h5
+
+# --- REACT / CLIENT ---
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.cache/
+client/.next/
+
+# React editor cache
+client/.eslintcache
+
+# --- OS / EDITOR ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# --- BACKUP / TESTS ---
+*.orig
+*.bak
+*.tmp
+coverage/
+htmlcov/
+
+# --- PROJECT-SPECIFIC ---
+server/chunks.json
+server/__pycache__/
+server/lecture_pdf/
+ragplus_prototype.ipynb
