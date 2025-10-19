@@ -45,7 +45,7 @@ async def study_buddy(payload: StudyBuddyRequest):
 
     llm = LLM_Tutor(rag_system=rag)
     answer = llm.answer_question(student_question=payload.prompt)
-    res = llm.translate_response(response=answer, target_language="Vietnamese")
+    res = llm.translate_response(response=answer, target_language="Chinese")
 
     return StudyBuddyResponse(
         response=res,
